@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        style="@style/help_title"
+        android:text="@string/help_title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:background="@color/item_background">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text"
+            android:textSize="20sp"/>
+    </ScrollView>
+    <Button
+        android:id="@+id/help_back"
+        style="@style/help_back"
+        android:text="@string/help_back"/>
+</LinearLayout>

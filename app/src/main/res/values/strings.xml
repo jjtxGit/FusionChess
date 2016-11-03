@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Fusion Chess</string>
+    <string name="app_title">FUSION CHESS</string>
+    <string name="menu_chess">CHESS</string>
+    <string name="menu_help">HELP</string>
+    <string name="menu_options">OPTIONS</string>
+    <string name="menu_exit">EXIT</string>
+
+    <string name="dialog_options_title">OPTIONS</string>
+    <string name="dialog_options_item_mute">MUTE</string>
+    <string name="dialog_options_item_music">SOUNDS</string>
+    <string name="dialog_options_item_sound">EFFECTS</string>
+    <string name="dialog_options_confirm">CONFIRM</string>
+
+    <string name="dialog_exit_title">EXIT</string>
+    <string name="dialog_exit_massage">Do you confirm the exit?</string>
+    <string name="dialog_exit_confirm">CONFIRM</string>
+    <string name="dialog_exit_cancel">CANCEL</string>
+
+    <string name="help_back">BACK</string>
+    <string name="help_title">HELP</string>
+    <string name="help_text">
+        \t\t\t\t融合象棋是基于中国游戏产生的新型玩法，在传统中国象棋的规则基础下，
+        融合象棋赋予了[车][马][炮][兵](卒)新的能力。\n\n
+        \t\t\t\t融合象棋中的[车][马][炮][兵](卒)拥有两两融合的能力，例如：\n\n
+        【马】+【车】=【马车】\n\n
+        \t\t\t\t通过棋子间的两两融合，融合象棋中的棋子可以同时拥有两种棋子的能力，
+        于此同时，已经融合的棋子也可以两两分开，以此提高棋子的机动性用来避免更大的损失。
+        棋子的融合与分离，使游戏的变数更加复杂，游戏竞技也更加紧张，
+        从而使游戏变得更加有趣。\n\n
+        \t\t\t\t在传统的中国象棋中，[兵]和[卒]在过河前不能横移，而且只能向前，
+        融合象棋中保留了此规则，对[兵](卒)参与融合产生的棋子进行了一些限制，从而阻止一些
+        不必要的情况发生。\n\n
+        \t\t\t\t如果想要更多有关融合象棋的信息，请在游戏中体验，
+        相信本游戏将给你带来一股新鲜之息。\n\n\n
+        制作者：可是，杰杰天下\n
+        联系方式：823424123@163.com\n
+    </string>
+    
+    <string name="game_new_game">NEW</string>
+    <string name="game_undo">UNDO</string>
+    <string name="game_resign">RESIGN</string>
+    <string name="game_settings">SETTINGS</string>
+    <string name="game_assist">ASSIST</string>
+    <string name="game_back">BACK</string>
+</resources>

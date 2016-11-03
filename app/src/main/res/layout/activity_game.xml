@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/board"
+        android:adjustViewBounds="true"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/game_new"
+                style="@style/game_button"
+                android:text="@string/game_new_game"/>
+            <Button
+                android:id="@+id/game_undo"
+                style="@style/game_button"
+                android:text="@string/game_undo"/>
+            <Button
+                android:id="@+id/game_admit"
+                style="@style/game_button"
+                android:text="@string/game_resign"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/game_settings"
+                style="@style/game_button"
+                android:text="@string/game_settings" />
+            <Button
+                android:id="@+id/game_assist"
+                style="@style/game_button"
+                android:text="@string/game_assist"/>
+            <Button
+                android:id="@+id/game_back"
+                style="@style/game_button"
+                android:text="@string/game_back" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

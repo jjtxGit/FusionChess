@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@null</item>
+    </style>
+    <!-- FullscreenTheme extends AppTheme. -->
+    <style name="FullscreenTheme" parent="@style/AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- Style of Menu Button. -->
+    <style name="menu_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@drawable/menu_button_selector</item>
+    </style>
+    <!-- Style of Help Button. -->
+    <style name="help_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@drawable/menu_button_selector</item>
+    </style>
+
+    <style name="help_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">20sp</item>
+        <item name="android:layout_marginBottom">20sp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@drawable/menu_button_selector</item>
+    </style>
+    <!-- Style of Game Button. -->
+    <style name="game_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@drawable/menu_button_selector</item>
+    </style>
+</resources>

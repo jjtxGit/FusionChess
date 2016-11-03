@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_activity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.keshi.chess.MainMenuActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textSize="65sp"
+        android:textColor="@color/app_text" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="40sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:background="@drawable/menu_border" >
+        <Button
+            android:id="@+id/menu_chess"
+            style="@style/menu_button"
+            android:text="@string/menu_chess" />
+        <Button
+            android:id="@+id/menu_help"
+            style="@style/menu_button"
+            android:text="@string/menu_help" />
+        <Button
+            android:id="@+id/menu_options"
+            style="@style/menu_button"
+            android:text="@string/menu_options" />
+        <Button
+            android:id="@+id/menu_exit"
+            style="@style/menu_button"
+            android:text="@string/menu_exit" />
+    </LinearLayout>
+</LinearLayout>

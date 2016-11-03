@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#efefef</color>
+    <color name="app_text">#6e6e6e</color>
+    <color name="app_text_passed">#ff6e6e</color>
+
+    <color name="transparent">#0000</color>
+    <color name="item_background">#1000</color>
+</resources>
